@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #A89984;
+  color: white;
+  font-family: "PT Serif", serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  padding: 16px 0;
+}
+
+.website-title {
+  font-size: 2rem;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  padding: 16px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-item {
+  margin: 0 16px;
+  position: relative;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navigation-item:hover {
+  cursor: pointer;
+}
+
+.navigation-item:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.navigation-item:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-image {
+  height: 400px;
+  width: auto;
+  border-radius: 50%;
+  border: white 16px solid;
+}
+
+.main-section {
+  margin: 15vh 0;
+}
+
+.name {
+  font-size: 4rem;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+}
+
+.profession-description {
+  font-size: 2rem;
+}
+
+.button-section {
+  display: flex;
+  margin-top: 32px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 12px 64px;
+  border-radius: 32px;
+  border: none;
+  font-size: 1.2rem;
+  font-family: "PT Serif", serif;
+  color: white;
+  margin: 0 12px;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.btn-text {
+  margin-left: 16px;
+}
+.btn-github {
+  background-color: #1E1E1E;
+}
+.btn-linkedin {
+  background-color: #458588;
+}
+.btn-contact-me {
+  background-color: #FABD2F;
+}
+.btn-white {
+  background-color: white;
+  color: #FABD2F;
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+.green-section {
+  background-color: #768F6D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 128px;
+  margin: 30vh 0;
+}
+
+.title {
+  color: white;
+  font-family: "Ultra", serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.description {
+  margin-top: 48px;
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  width: 60%;
+}
+
+.blue-section {
+  background-color: #458588;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 128px;
+  margin: 15vh 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.job-position {
+  font-family: "PT Serif", serif;
+  font-size: 1.6rem;
+  width: 60%;
+  font-weight: bold;
+  margin-top: 64px;
+}
+
+.company {
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  width: 60%;
+}
+
+.job-description {
+  font-size: 1.25rem;
+  width: 55%;
+  margin-top: 30px;
+}
+
+.section-title {
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+}
+.section-subtitle {
+  text-align: center;
+  width: 100%;
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  margin-bottom: 64px;
+}
+
+.projects-section {
+  margin: 15vh 0;
+}
+.projects-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.project-card {
+  background-color: #3C3836;
+  border-radius: 8px;
+  margin-top: 36px;
+  padding: 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+.project-card > * {
+  font-family: "PT Serif", serif;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+.project-description {
+  font-size: 1.2rem;
+  font-family: "PT Serif", serif;
+}
+.project-image {
+  height: 180px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.tech-used-container {
+  display: flex;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.tech-used-item {
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.item-blue {
+  background-color: #458588;
+}
+.item-red {
+  background-color: #d65757;
+}
+.item-pink {
+  background-color: #d65797;
+}
+.item-black {
+  background-color: #000000;
+}
+.item-yellow {
+  background-color: #e6cd41;
+}
+.item-green {
+  background-color: #338456;
+}
+
+.blog-alert {
+  background-color: #FABD2F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 128px;
+  margin: 15vh 0;
+}
+
+.alert-title {
+  font-family: "Ultra", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.alert-description {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  margin-bottom: 64px;
+}
+.alert-description {
+  font-size: 1.3rem;
+}
+
+footer {
+  padding: 64px;
+  background-color: #3C3836;
+  text-align: center;
+}
+
+@media screen and (min-width: 815px) and (max-width: 1247px) {
+  html {
+    font-size: 14px;
+  }
+  .main-section {
+    flex-direction: column;
+  }
+  .profile-image {
+    margin-bottom: 32px;
+  }
+  .button-section {
+    justify-content: space-evenly;
+  }
+  .btn {
+    padding: 6px 32px;
+    font-size: 1.2rem;
+  }
+  .green-section, .blue-section {
+    padding: 64px 32px;
+  }
+  .project-image {
+    height: 90px;
+  }
+}
+@media screen and (max-width: 815px) {
+  html {
+    font-size: 10px;
+  }
+  .project-image {
+    display: none;
+  }
+  .green-section, .blue-section, .blog-alert {
+    padding: 64px 0px;
+  }
+  .main-section {
+    flex-direction: column;
+  }
+  .button-section {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .btn {
+    margin: 8px 10%;
+  }
+  .profile-image {
+    margin-bottom: 32px;
+    height: 200px;
+  }
+  .name {
+    font-size: 2.3rem;
+  }
+  .btn-white {
+    margin: 0;
+  }
+  .alert-title, .alert-description {
+    text-align: center;
+  }
+  .tech-used-item {
+    margin-top: 8px;
+  }
+  .website-title {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

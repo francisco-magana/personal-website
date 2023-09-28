@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Frank's web</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <span class="website-title">Francisco Magaña</span>
+        <div class="navigation">
+            <a class="navigation-item" href="#about">About me</a>
+            <a class="navigation-item" href="#experience">Experience</a>
+            <a class="navigation-item" href="#projects">Projects</a>
+        </div>
+    </header>
+    <div class="main-section">
+        <img src="./public/profile-image.jpeg" alt="my profile image" class="profile-image">
+        <div class="side-text">
+            <h1 class="name">Francisco Maga&ntilde;a</h1>
+            <span class="profession-description">Software developer</span>
+            <div class="button-section">
+                <a href="https://www.github.com/francisco-magana" target="_blank" class="btn btn-github"><i data-feather="github" class="icon"></i>GitHub</a>
+                <a href="https://linkedin.com/in/francisco-javier-maga%C3%B1a-palomeque-b273061ba" target="_blank" class="btn btn-linkedin"><i data-feather="linkedin" class="icon"></i>LinkedIn</a>
+                <a href="mailto:test@gmail.com" class="btn btn-contact-me"><i data-feather="mail" class="icon"></i>Contact me</a>
+            </div>
+        </div>
+    </div>
+    <div class="green-section" id="about">
+        <h2 class="title">About me</h2>
+        <p class="description">I'm a passionate software developer from Mexico who likes to build software to solve complex problems for companies and individuals.</p>
+        <p class="description">With over three years of experience in the field, I am always looking to improve my coding skills through continuous learning and working on my own ideas. I enjoy every aspect of the web application development cycle, from requirements, analysis, and design to coding and deploying high-quality products to the world. I always give my best in the process to maximize the impact and results. Collaboration is at the heart of what I do. I thrive in team environments, where diverse talents converge to create exceptional software solutions. Effective communication and teamwork are my pillars for success. I'm deeply committed to delivering software that not only meets technical specifications but also delights end-users.</p>
+
+        <p class="description">When I'm not coding I like to spend my time with my friends and family. Very interested in fantasy and sci-fi media like videogames and series.</p>
+    </div>
+    <div class="blue-section" id="experience">
+        <h2 class="title">Experience</h2>
+        <p class="job-position">Full-Stack developer</p>
+        <p class="company">Grupo Quality</p>
+        <ul class="job-description">
+            <li>Software development with Java, Spring, HTML, CSS, Bootstrap, Javascript, JQuery.</li>
+            <li>ERP based SQL Database design.</li>
+            <li>Project documentation (guides, manuals, presentations, slides, user training).</li>
+            <li>UI design / Mockups (Adobe XD, Figma).</li>
+        </ul>
+        <p class="job-position">Requirement analyst</p>
+        <p class="company">Ennovasoft</p>
+        <ul class="job-description">
+            <li>Analysis of functional and non-functional project requirements.</li>
+            <li>Mockup and prototype screens design (Figma, Adobe XD).</li>
+            <li>Use case identification and document writing.</li>
+        </ul>
+        <p class="job-position">Full-Stack developer</p>
+        <p class="company">Nexu</p>
+        <ul class="job-description">
+            <li>Backend development with Ruby On Rails and PostgreSQL.</li>
+            <li>Frontend development with Angular and Typescript.</li>
+            <li>Cloud based development environment (AWS cloud9).</li>
+            <li>Testing.</li>
+            <li>Git and Github for version control (Pull Requests, code reviews, branches).</li>
+        </ul>
+    </div>
+    <div class="projects-section" id="projects">
+        <h2 class="section-title">Personal projects</h2>
+        <p class="section-subtitle">Some practice projects that I want to share with you.</p>
+        <div class="projects-container">
+            <a href="https://should-i.000webhostapp.com/" target="_blank" class="project-card">
+                <div>
+                    <p class="project-title">Should I Buy it?</p>
+                    <p class="project-description">
+                        A sample application to take a decision if you should buy or no something.
+                    </p>
+                    <div class="tech-used-container">
+                        <div class="tech-used-item item-blue">TypeScript</div>
+                        <div class="tech-used-item item-red">Angular</div>
+                        <div class="tech-used-item item-pink">SCSS</div>
+                        <div class="tech-used-item item-black">GitHub</div>
+                    </div>
+                </div>
+                <img class="project-image" src="./public/should-i-image.png" alt="project image">
+            </a>
+            <a href="https://ideas4boredpeople.000webhostapp.com/" target="_blank" class="project-card">
+                <div>
+                    <p class="project-title">Are you bored?</p>
+                    <p class="project-description">
+                        Get ideas to do when you are bored.
+                    </p>
+                    <div class="tech-used-container">
+                        <div class="tech-used-item item-blue">TypeScript</div>
+                        <div class="tech-used-item item-red">Angular</div>
+                        <div class="tech-used-item item-pink">SCSS</div>
+                        <div class="tech-used-item item-black">GitHub</div>
+                    </div>
+                </div>
+                <img class="project-image" src="./public/bored-image.png" alt="project image">
+            </a>
+            <a href="https://todoapp-neon-two.vercel.app/" target="_blank" class="project-card">
+                <div>
+                    <p class="project-title">TODO list</p>
+                    <p class="project-description">
+                        A minimal TODO list app that I use for my tasks.
+                    </p>
+                    <div class="tech-used-container">
+                        <div class="tech-used-item item-yellow">JavaScript</div>
+                        <div class="tech-used-item item-black">NextJS</div>
+                        <div class="tech-used-item item-blue">JSX</div>
+                    </div>
+                </div>
+                <img class="project-image" src="./public/todo-image.png" alt="project image">
+            </a>
+            <a href="https://francisco-magana.github.io/clinote-project-page/" target="_blank" class="project-card">
+                <div>
+                    <p class="project-title">Clinote</p>
+                    <p class="project-description">
+                        A CLI application to take notes without leaving the terminal
+                    </p>
+                    <div class="tech-used-container">
+                        <div class="tech-used-item item-yellow">JavaScript</div>
+                        <div class="tech-used-item item-green">NodeJS</div>
+                    </div>
+                </div>
+                <img class="project-image" src="./public/clinote-image.png" alt="project image">
+            </a>
+        </div>
+    </div>
+    <div class="blog-alert">
+        <h2 class="alert-title">Visit my personal blog</h2>
+        <p class="alert-description">I write about everything I feel interested.</p>
+        <a href="https://francisco-magana.github.io/blog/" target="_blank" class="btn btn-white">Go to the blog</a>
+    </div>
+    <footer>
+        <h2 class="alert-title">Thanks for visiting my personal website.</h2>
+        <p class="alert-description">Have a happy life!</p>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
