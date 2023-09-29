@@ -377,6 +377,9 @@ footer {
   .green-section {
     margin: 10vh 0;
   }
+  .description {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
