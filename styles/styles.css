@@ -353,7 +353,7 @@ footer {
     justify-content: space-evenly;
   }
   .btn {
-    margin: 8px 10%;
+    margin: 8px 5%;
   }
   .profile-image {
     margin-bottom: 32px;
@@ -373,6 +373,9 @@ footer {
   }
   .website-title {
     display: none;
+  }
+  .green-section {
+    margin: 10vh 0;
   }
 }
 
